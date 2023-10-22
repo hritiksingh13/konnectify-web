@@ -25,6 +25,9 @@
     "paths": {
       "@/*": [
         "./src/*"
+      ],
+      "@components": [
+        "/src/components"
       ]
     }
   },
@@ -33,9 +36,11 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "next.config.js"
+    "next.config.js",
+    "./jest.config.js",
+    "./jest.setup.js"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
   ]
 }
