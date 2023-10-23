@@ -16,7 +16,7 @@
     "*.jsx": "eslint",
     "*.tsx": "eslint",
     "*.json": "eslint",
-    "*.md": "eslint"
+    "*.md": "eslint",
   },
   "husky": {
     "hooks": {
