@@ -11,12 +11,12 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "lint-staged": {
-    "*.js": "eslint",
-    "*.ts": "eslint",
-    "*.jsx": "eslint",
-    "*.tsx": "eslint",
-    "*.json": "eslint",
-    "*.md": "eslint",
+    "*.js": "eslint ./",
+    "*.ts": "eslint ./",
+    "*.jsx": "eslint ./",
+    "*.tsx": "eslint ./",
+    "*.json": "eslint ./",
+    "*.md": "eslint ./",
   },
   "husky": {
     "hooks": {
