@@ -1,20 +1,6 @@
 {
-  "extends": [
-    "airbnb",
-    "airbnb-typescript",
-    "prettier"
-  ],
+  "extends": ["airbnb", "airbnb-typescript", "prettier"],
   "parserOptions": {
     "project": "./tsconfig.json"
-  },
-  "import/no-extraneous-dependencies": [
-    "error",
-    {
-      "devDependencies": [
-        "test/**"
-      ],
-      "optionalDependencies": false,
-      "peerDependencies": false
-    }
-  ]
+  }
 }
